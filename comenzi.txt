@@ -1,0 +1,11 @@
+comenzile mele sunt:
+
+Pentru GitHub:
+git add [nume fisier]
+git commit -m "mesaj"
+git push
+
+Pentru Assembly:
+as --32 exemplu.asm -o exemplu.o
+ld -m elf_i386 exemplu.o -o exemplu
+./exemplu
